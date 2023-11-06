@@ -1,7 +1,7 @@
 // Define the USGS Earthquake API URL - Past month (30 Days)
 const usgsApiUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
 
-// Define the Tectonic Plates URL
+// Define the Tectonic Plates URL -  from github repo
 const tectonicPlatesUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
 // Define the base layers

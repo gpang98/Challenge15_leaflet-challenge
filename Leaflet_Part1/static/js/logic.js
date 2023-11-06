@@ -60,8 +60,6 @@ function displayEarthquakeData(earthquakes) {
             fillOpacity: 0.8
         }).addTo(map).bindPopup(`<b>Magnitude:</b> ${mag}<br><b>Depth:</b> ${depth} km<br><b>Location:</b> ${properties.place}`);
     });
-
-
 }
 
 // Set up the legend.
