@@ -14,7 +14,7 @@ function getMarkerSize(magnitude) {
     return magnitude * 2; // magnitude is scaled to 2x.
 }
 
-// Function to set marker color based on depth
+// Function to set marker color based on depth of earthquate source
 function getMarkerColor(depth) {
     if (depth >= -10 && depth <= 10) {
         return "#FFD700"; // Light orange for -10-10 km depth range
