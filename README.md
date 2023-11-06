@@ -17,7 +17,7 @@ Github repository at: [https://github.com/gpang98/Challenge15_leaflet-challenge.
 ## Introduction
 
 ### Objective
-The main onjective of the project is to visualise USGS Earthquake data, such as location, magnitude, and depth, in a meaningful way.
+The main onjective of the project is to visualise USGS Earthquake data, such as location, magnitude, and depth to ease understanding.
 
 ### Repository Structure
 - [`Leaflet_Part1`](https://github.com/gpang98/Challenge15_leaflet-challenge/tree/main/Leaflet_Part1) contains the source code [(`logic.js`)](https://github.com/gpang98/Challenge15_leaflet-challenge/blob/main/Leaflet_Part1/static/js/logic.js) for the basic earthquake visualisation.
@@ -51,13 +51,13 @@ The main onjective of the project is to visualise USGS Earthquake data, such as 
     - use `L.circleMarker()` to specify the radius size and color and other parameters.
 
 8. Define the legend using `L.control()` function.
-    - Use `onAdd` to build the legend elements.
+    - Use `.onAdd` to build the legend elements.
     - Assign the color per ranges
     - display the legend Title.
     - use `.map()` and div class to arrange the color and text.
     - Use `.addTo()` to add legend to the map.
 
-9. The `style.css` is modified.
+9. The `style.css` file is modified.
     - `.legend-container` is styled such that background is white and position is absulute.
     - `z-index` is set to 100 to ensure it is always plotted as the top layer.
 
@@ -87,7 +87,7 @@ The main onjective of the project is to visualise USGS Earthquake data, such as 
 
 10. Use same legend from Part1.
 
-11. Use same `style.css` from Part1.
+11. Use same `style.css` file from Part1.
 
 
 ## References
