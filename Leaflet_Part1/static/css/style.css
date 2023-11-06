@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* CSS for the legend container */
+.legend-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: white; /* Set the background color to white */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  height: 160px; /* Adjust the height to your preference */
+  width: 110px; /* Adjust the width to your preference */
+  z-index: 100; /* Ensure the legend is above other content (adjust as needed) */
+}
+
+
+/* CSS for legend color box */
+.legend-color {
+  width: 55px; /* Adjust the width to your preference */
+  height: 20px; /* Adjust the height to your preference */
+  float: left;
+  margin-right: 10px; /* Adjust the spacing between color and text */
+}
+
+/* CSS for legend text */
+.legend-text {
+  float: left;
+}
