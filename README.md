@@ -21,10 +21,10 @@ The main onjective of the project is to visualise USGS Earthquake data, such as 
 
 ### Repository Structure
 - [`Leaflet_Part1`](https://github.com/gpang98/Challenge15_leaflet-challenge/tree/main/Leaflet_Part1) contains the source code [(`logic.js`)](https://github.com/gpang98/Challenge15_leaflet-challenge/blob/main/Leaflet_Part1/static/js/logic.js) for the basic earthquake visualisation.
-- [`Leaflet_Part2`](https://github.com/gpang98/Challenge15_leaflet-challenge/tree/main/Leaflet_Part2) contains the source code [(`bonus.js`)](https://github.com/gpang98/Challenge15_leaflet-challenge/blob/main/Leaflet_Part2/static/js/bonus.js) for the extended visualisation, which includes tectonic plates.
+- [`Leaflet_Part2`](https://github.com/gpang98/Challenge15_leaflet-challenge/tree/main/Leaflet_Part2) contains the source code [(`bonus.js`)](https://github.com/gpang98/Challenge15_leaflet-challenge/blob/main/Leaflet_Part2/static/js/bonus.js) for the basic earthquakes with tectonic plates plus layer controls.
 
 ### Dataset
-1. "All Earthquakes" from the "Past 7 Days" - USGS Earthquake Hazards Program [https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
+1. "All Earthquakes" from the "Past 30 Days" - USGS Earthquake Hazards Program [https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
 2. Tectonic Plates - Boundaries [https://github.com/fraxen/tectonicplates](https://github.com/fraxen/tectonicplates)
 
@@ -40,7 +40,7 @@ The main onjective of the project is to visualise USGS Earthquake data, such as 
 5. Build the `getMarkerColor()` function.
     - colors are assigned based on the dpeth parameter
 
-6. Get the data using `fetch()`` function and then using `d3.json()` to get the response.
+6. Get the data using `fetch()` function and then using `d3.json()` to get the response.
 
 7. Build the `displayEarthquakeData()` function.
     - store the geometry and properties
